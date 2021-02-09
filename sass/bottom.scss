@@ -1,0 +1,53 @@
+.bottom {
+  background-image: url("../img/bottom1.svg"),
+  url("../img/bottomGroup.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, left bottom;
+  background-size: 60%;
+
+  &__heading {
+    text-align: center;
+    padding-top: 7.75%;
+    width: max-content;
+    margin: auto;
+
+    p {
+      @include heading;
+      color: $color-primary-black;
+    }
+
+    p:after {
+      display: block;
+      content: " ";
+      height: 1rem;
+      background-color: $color-primary-red;
+      width: 25%;
+    }
+  }
+
+  &__content {
+    padding: 6.8% 16.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+      width: 37rem;
+      color: #000000;
+      @include text;
+      margin-bottom: 8.4rem;
+    }
+
+    span {
+      display: block;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 2.9rem;
+      letter-spacing: 0.048rem;
+      text-align: left;
+    }
+  }
+
+
+}

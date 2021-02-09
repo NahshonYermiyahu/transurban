@@ -1,0 +1,36 @@
+.top {
+  background-image: url("../img/build1.svg"), url("../img/build2.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, right bottom;
+  background-size: 65%;
+  padding-top: 9%;
+
+  &__content {
+    padding-top: 13%;
+    padding-left: 12%;
+    padding-bottom: 13%;
+  }
+}
+
+.heading-main {
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 5.3rem;
+  letter-spacing: 0.048rem;
+  color: $color-primary-black;
+}
+
+.heading-sub {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.048rem;
+  margin-top: 1.7rem;
+  color: #333333;
+}
+
+.btn-red {
+  background-color: $color-primary-red;
+  color: $color-primary-white;
+  margin-top: 5rem;
+}

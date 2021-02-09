@@ -1,0 +1,164 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+
+@media only screen and (max-width: 1200px){
+
+  .header__nav-box {
+    width: 56%;
+  }
+
+  .top__content {
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+
+  .center {
+    background-size: 42%;
+  }
+
+  .bottom__content div {
+    width: 33rem;
+  }
+
+  .bottom__content {
+    padding: 6.8% 12%;
+  }
+
+  .btn-default {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+
+  html {
+    font-size: 56.5%;
+  }
+
+  .header__nav-box {
+    width: 68%;
+  }
+
+  .top {
+    background-size: 75%;
+  }
+
+  .top__content {
+    padding-left: 9%;
+  }
+
+  .btn-default {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.03rem;
+  }
+
+  .text-box {
+    display: block;
+  }
+
+  .text {
+    padding-bottom: 10%;
+    width: 77%;
+  }
+
+  .bottom__content div {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+
+  html {
+    font-size: 50.5%;
+  }
+
+  .header {
+    padding: 2% 7% 2% 2%;
+  }
+
+  .header__nav-box {
+    width: 75%;
+  }
+
+  .top {
+    background-size: 93%;
+  }
+
+  .top__content {
+    padding: 7%;
+  }
+
+  .center__content {
+    padding: 7%;
+  }
+
+  .center {
+    background-size: 52%;
+  }
+
+  .bottom__content {
+    padding: 7%;
+  }
+
+
+  .bottom__content div {
+    margin-bottom: 3%;
+  }
+  
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  html {
+    font-size: 44.5%;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .header__nav-box {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .top {
+    background-size: 105%;
+  }
+
+  .top__content {
+    padding-top: 18%;
+  }
+
+  .text {
+    width: 70%;
+  }
+
+  .bottom__heading {
+    width: inherit;
+    padding: 5% 7%;
+  }
+
+  .bottom__content div {
+    margin-bottom: 5%;
+  }
+
+  .bottom__heading p:after {
+    display: none;
+  }
+
+
+}

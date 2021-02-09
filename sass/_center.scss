@@ -1,0 +1,35 @@
+.center {
+  background-color: $color-primary-red;
+  background-image: url("../img/center1.svg"), url("../img/Group.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, right top;
+  background-size: 38%;
+
+  &__content {
+    padding: 10% 12%;
+
+  }
+}
+
+.heading {
+  @include heading;
+  color: $color-primary-white;
+}
+
+.text-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.text {
+  @include text;
+  margin-top: 2.6rem;
+  color: $color-primary-white;
+  width: 51rem;
+}
+
+.btn-white {
+  background-color: $color-primary-white;
+  color: $color-primary-black;
+}

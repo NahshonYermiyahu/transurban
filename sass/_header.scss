@@ -1,0 +1,49 @@
+.fixed {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  padding: 2% 12% 2% 2%;
+  width: 100%;
+  background-color: $color-white_header;
+  border-bottom: 1px solid $color-primary-red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+    &__logo-box {
+      width: 15%;
+    }
+
+    &__nav-box {
+      width: 47%;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      li {
+        display: inline-block;
+
+        a:link,
+        a:visited {
+          color: $color-primary-black;
+          border-bottom: 1px solid transparent;
+          font-size: 2rem;
+          line-height: 2.7rem;
+          letter-spacing: 0.048rem;
+        }
+
+        a:hover,
+        a:active {
+          border-bottom: 1px solid $color-primary-red;
+        }
+      }
+    }
+}
+
+
